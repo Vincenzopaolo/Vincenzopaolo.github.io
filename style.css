@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#id{
+  width:100%;
+  height:100%;
+  background-color: #000000;
+  border: solid 1px #FF0000;
+
+    // Adds the inner "border"
+    box-shadow: 0 0 1px #ff0000 inset;
+
+    background-image: linear-gradient(to bottom, #ff0000 0%, #ff0000 100%);
+    padding: 20px;
+    border-radius: 10px;
+}
